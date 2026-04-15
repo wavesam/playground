@@ -1,0 +1,14 @@
+/* Remove default spacing */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevents scrollbars from appearing */
+  width: 100%;
+  height: 100%;
+}
+
+/* Ensure the container doesn't add extra space */
+canvas {
+  display: block;
+}
